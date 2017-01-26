@@ -1,0 +1,26 @@
+Prerequisites:
+
+Node.js environment - Download: https://nodejs.org/en/download/
+
+IDE: Webstorm, Eclipse, etc.
+
+Chrome Browser, Firefox, IE10+
+
+Command Prompt / Terminal
+
+Step 1:
+
+Extract Source folder to a development space on your computer.
+
+Step 2:
+
+Cmd into Source folders Root and run command: npm install
+
+Step 3:
+
+Wait until npm install is finished, and then run command: npm run serve or npm start
+
+Step 4:
+
+Open Chrome browser and navigatate to: http://localhost:8000/
+
