@@ -1,4 +1,4 @@
-Reactjs-Data-Table
+# Reactjs-Data-Table
 
 Uses ReactJS to Fetch GET data from an API and show that data in a Table.
 
@@ -23,4 +23,3 @@ Requirements:
 - Webpack
 
 To setup project read code_setup_instructions.txt
-
