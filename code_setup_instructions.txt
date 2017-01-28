@@ -1,4 +1,4 @@
-Prerequisites:
+Pre-Requisites:
 
 Node.js environment - Download: https://nodejs.org/en/download/
 
@@ -10,17 +10,30 @@ Command Prompt / Terminal
 
 Step 1:
 
-Extract Source folder to a development space on your computer.
+Clone / Download project to a development space on your computer.
 
 Step 2:
 
-Cmd into Source folders Root and run command: npm install
+Cmd into Source folder Root and run command: npm install
 
 Step 3:
 
-Wait until npm install is finished, and then run command: npm run serve or npm start
+Wait until npm install is finished completely and then run command: npm run serve or npm start
 
 Step 4:
 
 Open Chrome browser and navigate to: http://localhost:9005/
 
+Troubleshooting:
+
+- Make sure node.js is in PATH environment for windows
+
+- If npm install gives any errors and the installation process terminates, first try resolving any errors by running 'npm install MISSING MODULE')
+
+- If any Webpack errors, try installing Webpack globally 'npm install webpack -g', after running that re-run 'npm install' to resolve any dependencies
+
+- 'npm run serve' will serve the site if no errors on port specified http://localhost:9005/
+
+- 'npm run dist' will create a production ready version of the website located in the Production/dist folder
+
+- 'npm run serve:dist' will serve the dist created version site
