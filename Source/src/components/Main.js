@@ -35,8 +35,8 @@ class AppComponent extends React.Component {
           });
         }
       )
-      .catch(function(e) {
-        console.log('Fetch Error', e);
+      .catch(function() {
+       // console.log('Fetch Error', e);
       });
   }
 

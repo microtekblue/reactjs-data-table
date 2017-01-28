@@ -32,7 +32,7 @@ let config = Object.assign({}, baseConfig, {
     new webpack.HotModuleReplacementPlugin(),
 
   new CopyWebpackPlugin([
-    { from: __dirname + '/../src/font-awesome', to: '../font-awesome' },
+    { from: __dirname + '/../src/font-awesome', to: './font-awesome' },
     { copyUnmodified: true},{ debug: 'debug'}
   ])
   ,
