@@ -22,5 +22,5 @@ Wait until npm install is finished, and then run command: npm run serve or npm s
 
 Step 4:
 
-Open Chrome browser and navigatate to: http://localhost:8000/
+Open Chrome browser and navigate to: http://localhost:9005/
 
