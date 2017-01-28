@@ -15,7 +15,7 @@ module.exports = {
   debug: true,
   devtool: 'eval',
   output: {
-    path: path.join('../Production', '/dist/assets'),
+    path: path.join(__dirname, '../../Production/dist/assets'),
     filename: 'app.js',
     publicPath: defaultSettings.publicPath
   },
@@ -26,7 +26,7 @@ module.exports = {
     port: defaultSettings.port,
     publicPath: defaultSettings.publicPath,
     noInfo: false,
-    outputPath: path.join('../Production', 'dist')
+    outputPath: path.join(__dirname, '../../Production/dist/assets')
   },
 
   resolve: {
